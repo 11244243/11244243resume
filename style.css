@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    text-align: center;
+}
+
+.header nav {
+    display: flex;
+    justify-content: center;
+    background-color: #dcd0c0;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #5a4d4a;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.header nav a:hover {
+    background-color: #b9a8a0;
+    border-radius: 5px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #dcd0c0;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+}
+
+.info {
+    text-align: left;
+}
+
+.info h1 {
+    color: #5a4d4a;
+    font-size: 24px;
+}
+
+.info p {
+    color: #7f8c8d;
+}
+
+blockquote {
+    font-style: italic;
+    color: #7f8c8d;
+    margin: 10px 0;
+}
+
+.social {
+    margin-top: 10px;
+}
+
+.social a {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #d6a2e8;
+}
+
+.skills-section, .experiences-section, .contact-section {
+    margin-top: 30px;
+}
+
+.skills-section h2, .experiences-section h2, .contact-section h2 {
+    color: #5a4d4a;
+    border-left: 5px solid #dcd0c0;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.programming-skills {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.skill-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #e0d7c9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5a4d4a;
+    font-size: 14px;
+    text-align: center;
+}
+
+.skill-bars .skill {
+    margin-bottom: 15px;
+}
+
+.skill label {
+    font-size: 14px;
+    color: #5a4d4a;
+}
+
+.bar {
+    width: 100%;
+    height: 8px;
+    background-color: #e0d7c9;
+    border-radius: 4px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.bar span {
+    display: block;
+    height: 100%;
+    background-color: #a1887f;
+    border-radius: 4px;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    color: #5a4d4a;
+    font-size: 18px;
+}
+
+.experience-photos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.photo-wrapper {
+    width: 45%;
+    margin-right: 10px;
+}
+
+.photo-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.contact-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-section li {
+    margin-bottom: 10px;
+    color: #5a4d4a;
+}
